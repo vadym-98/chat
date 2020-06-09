@@ -1,0 +1,67 @@
+.user {
+    cursor: pointer;
+}
+
+.user:hover {
+    background-color: #92a5ba;
+}
+
+.canvas {
+    height: 83vh;
+}
+
+.bord {
+    height: 83vh;
+}
+
+.messages {
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.form-text {
+    width: 90%;
+    position: absolute;
+    bottom: 12px;
+}
+
+#message {
+    width: 85%;
+    height: 80px;
+    border: 1px solid #e3e3e3;
+}
+
+.message-btn {
+    height: 40px;
+}
+
+.message {
+    background-color: #64b5f6;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    width: max-content;
+    max-width: 30%;
+}
+
+.messages {
+    max-height: 58vh;
+
+    overflow-y: auto;
+}
+
+.messages::-webkit-scrollbar {
+    display: none;
+}
+
+.down {
+    display: none;
+}
+
+.display-none {
+    display: none;
+}
+
+.text-small {
+    font-size: 10px;
+}
